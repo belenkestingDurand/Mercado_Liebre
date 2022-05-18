@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- incluimos css -->
+    <link rel="stylesheet" href="css/whatsapp.css"> <!-- incluimos css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" /> <!-- incluimos css -->
+</head>
+<body>
+   <form>
+       <div><label id="name">Nombre</label>
+        <input type="tex" name="name" id="name"></div>
+        <div><label id="username">Nombre de usuari@</label>
+            <input type="tex" name="username" id="username"></div>
+        <div><label id="datebrith">Fecha de Nacimiento</label>
+            <input type="date" name="datebrith" id="datebrith"></div>
+        <div><label id="address">Domicilio</label>
+             <input type="tex" name="address" id="address"></div>
+        <div><label id="perfil">Perfil de usuario</label>
+             <label><input type="radio" name="perfil" id="perfil"> Comprad@r</label>
+             <label><input type="radio" name="perfil" id="perfil"> Vended@r</label></div>
+        <div><label id="categ">Categorías de interes</label>
+             <label><input type="checkbox" name="categ" id="categ"> Electro</label>
+             <label><input type="checkbox" name="categ" id="categ"> Moda</label>
+             <label><input type="checkbox" name="categ" id="categ"> Hogar</label>
+             <label><input type="checkbox" name="categ" id="categ"> Juguetería</label>
+             <label><input type="checkbox" name="categ" id="categ"> Vida sana</label></div>
+        <div><label id="picture">Foto de perfil</label>
+             <input type="file" name="picture" id="picture"></div>
+        <div><label id="password">Contraseña</label>
+             <input type="password" name="password" id="password"></div>
+        <div><label id="password-confirm">Confirmar contraseña</label>
+             <input type="password" name="password-confirm" id="password-confirm"></div>
+        <div><input type="submit" value="submit" /></div>
+        <div><input type="reset" form="register" ></div>
+        
+   </form> 
+</body>
+</html>

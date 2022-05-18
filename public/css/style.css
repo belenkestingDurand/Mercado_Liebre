@@ -10,11 +10,25 @@
 body {
     font-family: 'Raleway', sans-serif;
     height:100%;
+    background-color: #ebebeb;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
 }
 
+
 main {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    height: 60%;
+    
+}
+
+head{
+  height: 20%;
+}
+
+footer{
+  height: 20%;
 }
 
 .nav {
@@ -30,6 +44,7 @@ section {
 article {
     margin-bottom: 10px;
     padding: 15px;
+    background-color: white;
 
 }
 
@@ -46,7 +61,7 @@ p {
     font-size: 12px;
 }
 i {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 header {
@@ -61,9 +76,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.container-logo-search-bar div {
-  width: 50%;
-}
+
 .container-logo-search-bar div img {
   margin: 20px;
 }
@@ -84,11 +97,58 @@ header {
   margin-bottom: 0;
 }
 
+.header-position-e i{
+  margin-left: 1%;
+  margin-right: 3%;
+}
+
+.margin-left-nav{
+  margin-left: 4%;
+}
+
 .border-radius-15 {
     border-radius: 15%;
 }
 .padding-10 {
     padding: 10px;
+}
+.nav-search{
+  width: 100%;
+}
+.barrita-sizing{
+  width: 80%;
+  margin-left:5%;
+}
+.lupa-sizing{
+margin-right: 10%
+}
+
+.margin-titulos{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+.banner{
+  width: 100%;
+}
+
+.banner-div{
+  height: 30%;
+}
+
+.section-1{
+  width: 90%;
+  margin: auto;
+}
+
+.section-2{
+  width: 90%;
+  margin: auto;
+}
+
+footer{
+  background-color: white;
 }
 
 /* colors */
@@ -116,6 +176,7 @@ div.img img {
 .description {
     visibility: hidden;
     transition: transform 5s;
+    color: #666;
 
 }
 
@@ -184,14 +245,43 @@ article:hover .deal-effect {
 
 .center-tex{
     text-align: center;
+    padding: 5%;
 }
 .color-gris{
     color: #666;
 }
 
+.Logoml{
+  width: 80%;
+}
 
+.sizing-50{
+width: 50%;
+} 
 
-
+.sizing-login-form{
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.diseño-login{
+  height: 10%;
+  height: 50%;
+  text-align: center;
+  border: none;
+}
+.sizing-login-input{
+  height: 100%;
+  width: 50%;
+}
+.style-bottom{
+  background-color: #1259c3;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
 
 
 /* TABLET */
@@ -208,20 +298,20 @@ article:hover .deal-effect {
       margin-right: 0%;
     }
 
-    .header-position{
+    .header-position-s{
       width: 50%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: start;
     }
 
-    .margin-left{
-      padding-left: 10%;
-    }
-
-    .margin-right{
-      padding-right: 10%;
+    .header-position-e{
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: end;
     }
 
     section {
@@ -244,10 +334,12 @@ article:hover .deal-effect {
     .flex-grow-2 {
       display: block;
     }
-    .flx-grow-30-desktop{
-      flex-grow: 33%;
+    .sizing-30-desktop{
+      width: 33%;
     }
-
+    .margin-desktop{
+      margin: auto;
+    }
 }
 
 /* DESKTOP */
@@ -271,8 +363,27 @@ article:hover .deal-effect {
     margin-right: 0%;
   }
 
-  .flx-grow-30-desktop{
-    flex-grow: 33%;
+  .sizing-30-desktop{
+    width: 33%;
+  }
+  .margin-desktop{
+    margin: auto;
+  }
+
+  .header-position-s{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .header-position-e{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
   }
 
 }

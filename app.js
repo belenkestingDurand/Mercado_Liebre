@@ -7,10 +7,14 @@ const path = require('path')
 const views = path.join(__dirname, 'views/')
 //public
 const public = path.join(__dirname, 'public/')
-const home_html = path.join(__dirname, 'views/home_html/home.html')
+const home_html = path.join(__dirname, 'views/home.html')
+const register_html = path.join(__dirname, 'views/register.html')
+const login_html = path.join(__dirname, 'views/login.html')
 //html
 const htpptRaiz = '/'
-const htpptHome = ''
+const htpptHome = '/home'
+const htpptRegister = '/register'
+const htpptLogin = '/login'
 //html
 const homehtml = 'home.html'
 
@@ -22,4 +26,13 @@ app.listen(port, () => console.log('Example app listening at http://localhost:'+
 
 app.get(htpptRaiz, function(req, res){
     res.sendFile(home_html)
+})
+app.get(htpptHome, function(req, res){
+    res.sendFile(home_html)
+})
+app.get(htpptRegister, function(req, res){
+    res.sendFile(register_html)
+})
+app.get(htpptLogin, function(req, res){
+    res.sendFile(login_html)
 })
