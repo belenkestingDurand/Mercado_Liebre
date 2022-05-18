@@ -261,26 +261,29 @@ width: 50%;
 
 .sizing-login-form{
   height: 100%;
-  padding: 5%;
+  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-content: space-around;
 }
 .diseño-login{
-  height: 10%;
+  height: 33%;
   height: 50%;
   text-align: center;
   border: none;
+  margin-top: 2%;
 }
 .sizing-login-input{
   height: 100%;
-  width: 50%;
+  width: 75%;
 }
 .style-bottom{
   background-color: #1259c3;
   color: white;
   border: none;
-  border-radius: 5%;
 }
 
 
@@ -340,6 +343,27 @@ width: 50%;
     .margin-desktop{
       margin: auto;
     }
+    .sizing-login-form{
+      height: 100%;
+      padding: 10%;
+      margin-top: 10%;
+      margin-bottom: 20%;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+    }
+    .diseño-login{
+      height: 33%;
+      height: 50%;
+      text-align: center;
+      border: none;
+      margin-top: 2%;
+    }
+    .sizing-login-input{
+      height: 100%;
+      width: 80%;
+    }
 }
 
 /* DESKTOP */
@@ -384,6 +408,28 @@ width: 50%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: end;
+  }
+
+  .sizing-login-form{
+    height: 100%;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  .diseño-login{
+    height: 33%;
+    height: 50%;
+    text-align: center;
+    border: none;
+    margin-top: 2%;
+  }
+  .sizing-login-input{
+    height: 100%;
+    width: 70%;
   }
 
 }

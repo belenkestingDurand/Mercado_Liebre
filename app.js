@@ -36,3 +36,9 @@ app.get(htpptRegister, function(req, res){
 app.get(htpptLogin, function(req, res){
     res.sendFile(login_html)
 })
+app.post(htpptLogin, function(req, res){
+    res.sendFile(login_home_html)
+})
+app.post(htpptRegister, function(req, res){
+    res.sendFile(login_html)
+})
