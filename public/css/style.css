@@ -286,6 +286,17 @@ width: 50%;
   border: none;
 }
 
+.box-flex-column-registro{
+  display:flex;
+  flex-direction: column;
+}
+
+.register-form{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 95%%;
+}
+
 
 /* TABLET */
 @media (min-width: 361px) {
